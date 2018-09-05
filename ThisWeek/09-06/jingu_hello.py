@@ -1,1 +1,1 @@
-print("hello everyone, I am Jingu")
+print("Hello everyone, I am Jingu")
