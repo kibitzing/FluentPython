@@ -28,4 +28,6 @@ _jingu_09-07.py_
 예시:\
 _git commit -m 'jingu upload 09-07'_
 
-
+***
+reference:\
+https://github.com/fluentpython/example-code
