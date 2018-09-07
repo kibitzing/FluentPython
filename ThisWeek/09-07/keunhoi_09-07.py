@@ -5,7 +5,7 @@
 # 변형 : 깨진 한글과 깨지지 않은 한글 추출
 symbols = '아#*버$*지#*$*!'
 codes = [ord(symbol) for symbol in symbols]
-unnormal_chars = [ord(symbol) for symbol in symbols]
+unnormal_chars = [ord(symbol) for symbol in symbols if ord(symbol) < 1000]
 normal_chars = [ord(symbol) for symbol in symbols if ord(symbol) >= 1000]
 
 print(codes)
