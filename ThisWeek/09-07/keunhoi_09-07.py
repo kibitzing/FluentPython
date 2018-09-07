@@ -13,7 +13,6 @@ print(unnormal_chars)
 print(normal_chars)
 
 # Example 2-3
-# 어라...왜 위에서 내가 해본거랑 비슷한 내용이....당황스럽네여....뒤에 읽고 한 거 아닌데......
 import time
 
 symbols = '#*$*!!&'
