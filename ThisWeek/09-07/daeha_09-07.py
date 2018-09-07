@@ -1,7 +1,8 @@
-__author__ = "daehakim"
-__email__ = "kdhht5022@gmail.com"
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+
+__author__ = "daehakim"
+__email__ = "kdhht5022@gmail.com"
 
 """
     텐서플로 텐서를 list comprehension으로 확인하는 방법
