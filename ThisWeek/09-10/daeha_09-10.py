@@ -5,7 +5,7 @@ __author__ = "daehakim"
 __email__ = "kdhht5022@gmail.com"
 
 """
-    튜플 언패킹(unpacking)을 사용하여 텐서를 확인하는 방법
+    언패킹(unpacking)을 사용하여 텐서를 확인하는 예제
 """
 
 import tensorflow as tf
