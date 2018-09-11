@@ -23,12 +23,12 @@ tensor1 = tf.constant([1, 2, 3, 4, 5])
 
 Tensor = namedtuple('Tensor', 'velocity weight bias')
 
-# tf version
+# tensorflow tensor version
 t1 = Tensor(float(1.24), tf.constant([[1,1],[1,2]]), tf.constant([[1,2],[2,1]]))
 sess.run(t1.weight)
 sess.run(t1.bias)
 
-# keras version
+# keras tensor version
 t2 = Tensor._make([K.abs(2.0), K.abs(-1.0), K.abs(1.1)])
 
 # keras tensor can apply both sess.run() ans K.get_value
