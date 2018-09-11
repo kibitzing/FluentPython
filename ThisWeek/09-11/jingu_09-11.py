@@ -33,20 +33,26 @@ import tensorflow as tf
 import numpy as np
 
 x = tf.placeholder(tf.float32)
+# this is more popular way 
 parameters = namedtuple('parameters', 'w1 b1 w2 b2')
+# but it also works
 activators = namedtuple('activators', ['activator1', 'activator2'])
 
+# gives all the parameters and activators in the form of named tuple
 param_fullyConnectedLayer = parameters(tf.Variable([[2.,2.],[1.,1.]]), tf.Variable([2.,1.]), tf.Variable([[3.,2.],[3.,2.]]), tf.Variable([3.,3.]))
 activators_fullyConnectedLayer = activators(tf.nn.relu, tf.nn.softmax)
 
-init = tf.global_variables_initializer()
-sess = tf.Session()
-sess.run(init)
-
+# Layers
 L1 = tf.add(tf.matmul(param_fullyConnectedLayer.w1, x), param_fullyConnectedLayer.b1)
 L1 = activators_fullyConnectedLayer.activator1(L1)
 
 L2 = tf.add(tf.matmul(param_fullyConnectedLayer.w2, L1), param_fullyConnectedLayer.b2)
 L2 = activators_fullyConnectedLayer.activator2(L2)
 
+# initializing
+sess = tf.Session()
+init = tf.global_variables_initializer()
+sess.run(init)
+
+# it works! even tf.nn.relu and tf.nn.softmax
 print(sess.run(L2, feed_dict={x:[[2.,2.],[1.,1.]]}))
