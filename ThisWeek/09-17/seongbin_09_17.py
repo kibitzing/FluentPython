@@ -1,4 +1,4 @@
-# 가상으로 구현한 loocv(leave one out cross validation)기법
+# 가상으로 구현한 loocv(leave one out cross validation) 시뮬레이터
 
 from collections import deque
 import numpy as np
