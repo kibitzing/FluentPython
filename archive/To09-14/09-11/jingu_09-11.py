@@ -56,3 +56,6 @@ sess.run(init)
 
 # it works! even tf.nn.relu and tf.nn.softmax
 print(sess.run(L2, feed_dict={x:[[2.,2.],[1.,1.]]}))
+
+# activators_fullyConnectedLayer = activators_fullyConnectedLayer._replace(activator1 = tf.nn.softmax)
+# print(activators_fullyConnectedLayer)
