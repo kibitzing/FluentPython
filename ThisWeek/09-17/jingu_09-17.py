@@ -36,7 +36,7 @@ print(len(dq))
 # where should I use deque? some where num of container is fixed...
 thingsToDoToday = deque(['Python Study','ML study','Experiments'], maxlen=8)
 
-# priority high but not urgent
+# priority high and not urgent
 thingsToDoToday.append('new assignments')
 thingsToDoToday.append('new command of my professor')
 
