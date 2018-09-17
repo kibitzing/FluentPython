@@ -2,11 +2,11 @@
 # -*- coding: utf-8 -*-
 
 #################################
-#				#
-#       Inha University	#
-#     DSP Lab Sanghong Kim	#
-#     				#
-#				#
+#
+#       Inha University
+#     DSP Lab Sanghong Kim
+#
+#
 #################################
 
 """
@@ -23,6 +23,8 @@ deque
        array가 list보다 자료 저장 및 불러오는 것은 쉬었음
        같은 data를 표현할때도 다양한 방법이 있다는 것을 알게됨
        따라서 해당 상황에 맞는 자료형 선택이 가장 중요하다 생각됨
+
+ps. PyCharm을 사용해야 되겠다는 생각을 다시한번 하게됨
 """
 
 # Import Modules
