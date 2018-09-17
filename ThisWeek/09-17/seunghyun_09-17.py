@@ -33,7 +33,7 @@ print ('sorted by numpy : ',floats4[:5])
 ### numpy가 array보다 훨신 빠르다!
 ### 책에서 서술한 numpy장점인 C and Fortran codebase coding이 array에는 적용되지 않은듯...
 
-#%% 09-17
+#%% 09-15
 from collections import deque
 import numpy as np
 from time import time
@@ -50,13 +50,13 @@ imageset = deque([img for img in imageset])
 imagequeue = deque([], maxlen = maxlen*batchsize)
 
 while(len(imageset)>0):
-    if len(imagequeue) < minlen:
-        while (len(imagequeue) < maxlen):
+    if len(imagequeue) < minlen*batchsize:
+        while (len(imagequeue) < maxlen*batchsize) | len(imageset)>0:
             imagequeue.append(imageset.popleft())
             
         shuffle(imagequeue)
     
-    batch_image = np.array([imagequeue.popleft() for _ in range(batchsize)])
+    batch_image = np.array([imagequeue.popleft() for _ in range(batchsize) if len(imageset)>0])
     
 print ('dequeue provider : ', time() - start)
 
@@ -73,13 +73,13 @@ imageset = [img for img in imageset]
 imagequeue = []
 
 while(len(imageset)>0):
-    if len(imagequeue) < minlen:
-        while (len(imagequeue) < maxlen):
+    if len(imagequeue) < minlen*batchsize:
+        while (len(imagequeue) < maxlen*batchsize) | len(imageset)>0:
             imagequeue.append(imageset.pop())
             
         shuffle(imagequeue)
     
-    batch_image = np.array([imagequeue.pop() for _ in range(batchsize)])
+    batch_image = np.array([imagequeue.pop() for _ in range(batchsize) if len(imageset)>0])
     
 print ('list-right provider : ', time() - start)
 
@@ -95,19 +95,31 @@ imageset = [img for img in imageset]
 imagequeue = []
 
 while(len(imageset)>0):
-    if len(imagequeue) < minlen:
-        while (len(imagequeue) < maxlen):
+    if len(imagequeue) < minlen*batchsize:
+        while (len(imagequeue) < maxlen*batchsize) | len(imageset)>0:
             imagequeue.insert(0,imageset[0])
             del imageset[0]
             
         shuffle(imagequeue)
     
-    batch_image = np.array(imagequeue[:batchsize])
+    batch_image = np.array(imagequeue[:max(batchsize,len(imagequeue))])
     imagequeue[:batchsize] = []
     
 print ('list-left provider : ', time() - start)
 
 ### dataset provider를 naive하게 제작
-### 억지로 list의 left에서 pop을 하려고하면 느려지기는 한데 큰 의미는 없는 듯 함
+### 억지로 list의 left에서 pop을 하려고하면 느려
+### 한번에 queueing하는 양을 늘리면 차이가 커짐 --> 실제 데이터 provider에서도 차이가 생기긴 할
+
+
+
+
+
+
+
+
+
+
+
 
 
