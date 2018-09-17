@@ -14,7 +14,7 @@ def cross_validation(dataset, address ,acc):
 dataset = np.zeros((10000,8))
 acc = 0
 for i in range(10000):
-    for j in range(0,6):
+    for j in range(0,7):
         dataset[i,j] = random.randrange(1,10)
     dataset[i,7] = random.choice([True, False])
 dataset_address = deque(range(10000),maxlen = 10000)
