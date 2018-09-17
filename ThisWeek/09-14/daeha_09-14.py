@@ -5,7 +5,7 @@ __author__ = "daehakim"
 __email__ = "kdhht5022@gmail.com"
 
 """
-    리스트와 배열에서 사용할 수 있는 메서드와 속성을 사용하는 예제
+    큐(queue)를 활용하여 텐서플로 모델의 결과값을 저장하고 3D plot 하는 예제
 """
 
 import tensorflow as tf
@@ -13,7 +13,7 @@ from tensorflow.examples.tutorials.mnist import input_data
 
 import matplotlib.pyplot as plt
 import numpy as np
-import bisect
+from collections import deque
 
 tf.set_random_seed(1234)
 
@@ -23,7 +23,7 @@ LR = 0.002         # learning rate
 N_TEST_IMG = 5
 
 # Mnist digits
-mnist = input_data.read_data_sets('../../archive/datasets/mnist', one_hot=False)     # use not one-hotted target data
+mnist = input_data.read_data_sets('./mnist', one_hot=False)     # use not one-hotted target data
 test_x = mnist.test.images[:200]
 test_y = mnist.test.labels[:200]
 
@@ -88,12 +88,31 @@ for step in range(10000):
     if step % 1000 == 0:
         print('step is ', step)
 
-print('Trained recon. results')
-decoded_data = sess.run(decoded, {tf_x: view_data})
-plt.figure(1)
-plt.subplot(121)
-plt.imshow(np.reshape(view_data[0], (28, 28)), cmap='gray')
 
-plt.subplot(122)
-plt.imshow(np.reshape(decoded_data[0], (28, 28)), cmap='gray')
+encoded_info = sess.run(encoded, {tf_x: view_data})
+encoded_dq = deque(encoded_info, maxlen=5)
+
+# visualize in 3D plot
+from mpl_toolkits.mplot3d import Axes3D
+from matplotlib import cm
+view_data = test_x[:100]
+encoded_data = sess.run(encoded, {tf_x: view_data})
+
+fig = plt.figure(0)
+ax = Axes3D(fig)
+X = np.zeros(shape=(100,))
+Y = np.zeros(shape=(100,))
+Z = np.zeros(shape=(100,))
+
+encoded_dq = deque(encoded_data, maxlen=100)
+for i in range(len(encoded_dq)):
+    X[i], Y[i], Z[i] = encoded_dq.popleft()
+
+#X, Y, Z = encoded_data[:, 0], encoded_data[:, 1], encoded_data[:, 2]
+for x, y, z, s in zip(X, Y, Z, test_y):
+    c = cm.rainbow(int(255*s/9))
+    ax.text(x, y, z, s, backgroundcolor=c)
+ax.set_xlim(X.min(), X.max())
+ax.set_ylim(Y.min(), Y.max())
+ax.set_zlim(Z.min(), Z.max())
 plt.show()
