@@ -33,7 +33,7 @@ print ('sorted by numpy : ',floats4[:5])
 ### numpy가 array보다 훨신 빠르다!
 ### 책에서 서술한 numpy장점인 C and Fortran codebase coding이 array에는 적용되지 않은듯...
 
-#%% 09-15
+#%% 09-17
 from collections import deque
 import numpy as np
 from time import time
