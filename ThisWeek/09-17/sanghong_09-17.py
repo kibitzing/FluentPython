@@ -3,7 +3,7 @@
 
 #################################
 #				#
-#       Inha University		#
+#       Inha University	#
 #     DSP Lab Sanghong Kim	#
 #     				#
 #				#
