@@ -20,11 +20,8 @@ setdefault
 
 # Import Modules
 import time
-import os
 import sys
-import numpy as np
 import argparse
-
 
 DIAL_CODES = [
     ('010', 'CellPhone'),
@@ -84,7 +81,14 @@ def Set_Region():
     return region_num
 
 def Call(region_num):
-    num = region_num+input("Press number : ")
+    number = input("Press number : ")
+    try:
+        int(number)
+    except ValueError as e:
+        print("Please enter an adequate Value")
+        sys.exit()
+
+    num = region_num + number
     print("Call to :",num)
     #print("now Calling")
     for i in range(60):
