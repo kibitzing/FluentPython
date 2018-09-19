@@ -5,7 +5,7 @@ __author__ = "daehakim"
 __email__ = "kdhht5022@gmail.com"
 
 """
-    리스트와 배열에서 사용할 수 있는 메서드와 속성을 사용하는 예제
+    setdefault()를 사용하여 손쉽게 tensorflow layer의 속성을 불러오는 예제
 """
 
 import tensorflow as tf
