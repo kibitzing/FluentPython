@@ -13,7 +13,7 @@ from tensorflow.examples.tutorials.mnist import input_data
 
 import matplotlib.pyplot as plt
 import numpy as np
-import bisect
+import collections
 
 tf.set_random_seed(1234)
 
@@ -45,26 +45,26 @@ act_fn_list = [tf.nn.tanh,
                tf.nn.relu6
                ]
 act_fn_list.__delitem__(4)  # erase tf.nn.relu6
-act_fn_list.__setitem__(2, tf.nn.relu6)  # convert `tf.nn.softplust` to `tf.nn.relu6`
 
-nn_codes = [
-        ([tf.layers.dense], 'dense'),
-        ([tf.losses.mean_squared_error], 'mse'),
-        ([tf.train.AdamOptimizer], 'opt')
-    ]
-nn_dict = {name: API for API, name in nn_codes}
-# encoder
-en0 = nn_dict['dense'](tf_x, 128, tf.nn.tanh)
-en0 = tf.layers.dense(tf_x, 128, tf.nn.tanh)
-en1 = tf.layers.dense(en0, 64, act_fn_list.__getitem__(0))
-en2 = tf.layers.dense(en1, 32, act_fn_list.__getitem__(0))
+index = collections.defaultdict(list)  #TODO(): use collections.defaultdict()
+for i in range(len(act_fn_list)):
+    index[str(act_fn_list[i])[10:10+4]].append(act_fn_list[i])  
+             # {'tanh': [<function tensorflow.python.ops.math_ops.tanh(x, name=None)>],
+             #  'relu': [<function tensorflow.python.ops.gen_nn_ops.relu(features, name=None)>],
+             #  'soft': [<function tensorflow.python.ops.gen_nn_ops.softplus(features, name=None)>],
+             #  'sigm': [<function tensorflow.python.ops.math_ops.sigmoid(x, name=None)>]}
+
+# encoder (align taps because of better looking)
+en0 = tf.layers.dense(tf_x, 128, index['tanh'][0])
+en1 = tf.layers.dense(en0,  64,  index['tanh'][0])
+en2 = tf.layers.dense(en1,  32,  index['tanh'][0])
 encoded = tf.layers.dense(en2, 3)
 
-# decoder
-de0 = tf.layers.dense(encoded, 12, act_fn_list.__getitem__(0))
-de1 = tf.layers.dense(de0, 64, act_fn_list.__getitem__(0))
-de2 = tf.layers.dense(de1, 128, act_fn_list.__getitem__(0))
-decoded = tf.layers.dense(de2, 28*28, act_fn_list.__getitem__(3))
+# decoder (align taps because of better looking)
+de0 = tf.layers.dense(encoded, 12,    index['tanh'][0])
+de1 = tf.layers.dense(de0,     64,    index['tanh'][0])
+de2 = tf.layers.dense(de1,     128,   index['tanh'][0])
+decoded = tf.layers.dense(de2, 28*28, index['sigm'][0])
 
 loss = tf.losses.mean_squared_error(labels=tf_x, predictions=decoded)
 train = tf.train.AdamOptimizer(LR).minimize(loss)
