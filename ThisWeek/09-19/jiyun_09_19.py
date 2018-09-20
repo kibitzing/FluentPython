@@ -24,8 +24,10 @@ with open('09_19.txt') as fp:
             index[word].append(location)
             
 
+name = input()
+
 for word in sorted(index, key=str.upper):
-    if(word == 'Park'):
+    if(name == word):
         print(word, index[word]) #Park [(1, 5)]
 
 class StrKeyDict0(dict):
