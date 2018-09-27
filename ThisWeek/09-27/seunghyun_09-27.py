@@ -43,24 +43,22 @@ load_layers = {'conv_0', 'conv_1', 'fc'}
 
 not_in_net = load_layers - layer_name
     
-print ('below layers are not in net',layer_name) if len(not_in_net) > 0 else print ()
+print ('below layers are not in net\n',layer_name) if len(not_in_net) > 0 else print ()
 
-[layer for layer in load_layers]
-load_params = {(layer + '/'+param for param in layer_params[re.split('_',layer)[0]])
-               for layer in load_layers}
+load_params = {(layer + '/'+param )
+               for layer in load_layers
+               for param in layer_params[re.split('_',layer)[0]]}
 
 params = sio.loadmat('params.mat')
 p_name = set(params)
 
 load_params = load_params.__and__(p_name)
 
-not_in_ptnet = p_name - layer_name
-print ('below layers are not in pre_trained params',layer_name) if len(not_in_net) > 0 else print ()
+not_in_ptnet = load_params - p_name
+print ('below layers are not in pre_trained params\n',not_in_ptnet) if len(not_in_ptnet) > 0 else print ()
 
 for v in load_params:
     sess.run(tf.assign(var[v], params[v].reshape(*v.get_shape().as_list())))
 
 variables = tf.get_collection(tf.GraphKeys.TRAINABLE_VARIABLES)
 print ([np.mean(sess.run(v)) for v in variables])
-
-
