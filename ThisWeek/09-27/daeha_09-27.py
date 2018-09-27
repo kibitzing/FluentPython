@@ -5,8 +5,7 @@ __author__ = "daehakim"
 __email__ = "kdhht5022@gmail.com"
 
 """
-    types python 내장 라이브러리 내부의
-    MappingProxyType를 사용하여 손쉽게 tensorflow layer의 속성을 불러오는 예제
+    tensorflow tensor를 set을 통해서 불러오는 예제
 """
 
 import tensorflow as tf
