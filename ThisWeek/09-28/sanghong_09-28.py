@@ -135,6 +135,7 @@ def main(args):
         print("AssertionError")
 
 
+    # 자동 push bash script 공유중
 
 
 
