@@ -14,7 +14,7 @@ gbEncodedCnCh = chineseChar.encode('gb2312')
 utfEncodedCnCh = chineseChar.encode('utf-8')
 
 print('你好吗 gb decoded -> utf decode: ', gbEncodedCnCh.decode('utf-8', errors='replace'))
-# 你好吗 gb decoded -> utf decode:  �����
+ㅋ# 你好吗 gb decoded -> utf decode:  �����
 print('你好吗 gb decoded -> gb decode: ', gbEncodedCnCh.decode('gb2312', errors='replace'))
 # 你好吗 gb decoded -> gb decode:  你好吗
 print('你好吗 utf encoded -> gb decode: ', utfEncodedCnCh.decode('gb2312', errors='replace'))
