@@ -67,7 +67,10 @@ def main(args):
     #print(factorial_example.__doc__)
     print(factorial_if_else.__doc__)
 
+    # import matplotlib.pyplot as plt 또는 import tensorflow as tf 처럼 함수를 사용 가능
     fact=factorial_if_else
+    # 요 아랫건 안됨
+    # factorial_if_else as fie
 
     # 아래의 프로그램이 처리속도가 더 빠른데 이유를 모르겠음
     print("Running Time : ", time_cal(fact(5)))
