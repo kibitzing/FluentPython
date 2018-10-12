@@ -3,20 +3,27 @@ created by Jingu Kang
 2018-10-12
 coding: utf-8
 """
-
+# 아직 버그가 있..! 곧 수정 예정
 def hello(stringHi, *friends, **professor):
     str1 = stringHi
     
     if friends:
-        for i in friends:
-            a = ', '.join(i)
-        return str1 + a
+        a = ', '.join(i for i in friends)
+    else:
+        a =''
+    str2 = str1 + '! '+ a
     
     if professor:
-        for d, p in professor.items:
-            pp = ', '.join(p + '교수님')
-print(hello('안녕하세요', 'Daeha', '근회', 'Sanghong', '승현', '지윤','성빈',  prof='lee'))
+        b = ', '.join('%s교수님' % p for _, p in professor.items() )
+    else:
+        b = ''
+        
+    str3 = str2 + '\n아이쿠 ' + b
+    return str3 + '도 오셨네요'
 
+print(hello('안녕하세요' , '근회', 'Sanghong', 'Daeha', '승현', '지윤', '성빈', theirprof='송', myprof='이'))
+
+"""
 
 import random 
 class BingoCage:
@@ -40,7 +47,7 @@ print(bingo())
 print('----')
 
 def tag(name, *content, cls=None, **attrs):
-    """ make more than one html tag"""
+    # make more than one html tag
     if cls is not None:
         attrs['class'] = cls
         
@@ -64,3 +71,4 @@ print(tag(content='testing', name='img'))
 my_tag = {'name':'img', 'title':'Sunset Boulevard', 
           'src': 'sunset.jpg', 'cls':'framed'}
 print(tag(**my_tag))
+"""
