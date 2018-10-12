@@ -3,7 +3,6 @@ created by Jingu Kang
 2018-10-12
 coding: utf-8
 """
-# 아직 버그가 있..! 곧 수정 예정
 def hello(stringHi, *friends, **professor):
     str1 = stringHi
     
