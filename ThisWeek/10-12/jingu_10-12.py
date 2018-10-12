@@ -23,6 +23,8 @@ def hello(stringHi, *friends, **professor):
 
 print(hello('안녕하세요' , '근회', 'Sanghong', 'Daeha', '승현', '지윤', '성빈', theirprof='송', myprof='이'))
 
+# 안녕하세요! 근회, Sanghong, Daeha, 승현, 지윤, 성빈
+# 아이쿠 이교수님, 송교수님도 오셨네요
 """
 
 import random 
