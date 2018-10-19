@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #!/anaconda3/envs/tensorflow/bin/python
 #-*- coding: utf-8 -*-
 """
@@ -212,4 +211,3 @@ print("promos==promos2:", promos==promos2)
 print('try it with set')
 print("promos==promos2:", {i for i in promos}=={j for j in promos2})
 # 여전히 False 왜냐하면 다른 곳에 정의되어 있기 때문, promos 는 여기에 함수로, promos2 는 jingu_promotions에
->>>>>>> a4d3813d99317a491c2bddf219f5a01831bac42c
