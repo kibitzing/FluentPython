@@ -80,5 +80,26 @@ cart = [LineItem('Blue Tshirt',1,20000), LineItem('Pants',1, 20000), LineItem('w
 print(Order(Park, cart, best_promo)) #<Order total : 52500 due: 50000>
 
 
+##############################################################
+class MacroCommand:
+	def __init__(self, commands):
+		self.commands = list(commands)
+
+	def __call__(self):
+		for command in self.commands:
+			command(3000)
+
+def pointOX(input):
+    if input >= 2000:
+        print("적립금을 사용하실 수 있습니다.")
+    return input
+
+command = [pointOX]
+M = MacroCommand(command)
+# M.__init__(command)
+M()
+
+
+
 
 
