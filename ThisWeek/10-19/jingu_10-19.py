@@ -1,7 +1,7 @@
 #!/anaconda3/envs/tensorflow/bin/python
 #-*- coding: utf-8 -*-
 """
-    Created by Jingu Kang on 30/09/2018.
+    Created by Jingu Kang on 19/10/2018.
     Copyright © 2018 Jingu Kang. All rights reserved.
     
     DESCRIPTION:
