@@ -82,6 +82,7 @@ print(Order(Park, cart, best_promo)) #<Order total : 52500 due: 50000>
 
 ##############################################################
 class MacroCommand:
+
 	def __init__(self, commands):
 		self.commands = list(commands)
 
@@ -95,10 +96,10 @@ def pointOX(input):
     return input
 
 command = [pointOX]
-M = MacroCommand(command)
-# M.__init__(command)
-M()
 
+print(MacroCommand(command) ) # <__main__.MacroCommand object at 0x000001FDC4CF62B0>
+M = MacroCommand(command) 
+M() #적립금을 사용하실 수 있습니다.
 
 
 
