@@ -39,7 +39,5 @@ class Admin(object):
 @Admin
 def greeting(name, id):
     print("Hello {} {}".format(name, id))
-    
+
 greeting(name='daeha', id='0123456789')
-
-
