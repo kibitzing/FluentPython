@@ -105,3 +105,5 @@ venv.bak/
 
 # ignore pdf
 *.pdf
+
+.DS_Store
