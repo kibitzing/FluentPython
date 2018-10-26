@@ -142,6 +142,7 @@ def f4():
 def main(args):
     print("Add Your Code Below")
 
+    print("진구형 코드를 참고하였음을 미리 공시합니다.")
     '''
     print('------------------ Example ---------------------')
     print('running main()')
