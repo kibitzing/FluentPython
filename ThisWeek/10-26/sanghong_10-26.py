@@ -98,7 +98,7 @@ class calc_class:
 
 
 def calc_func(func):
-    def value(a, b):
+    def operator(a, b):
         if func.__name__ is 'add':
             y = '%i + %i = %i' % (a, b, a + b)
         elif func.__name__ is 'mul':
@@ -106,7 +106,7 @@ def calc_func(func):
         else:
             y = "sorry"
         return y
-    return value
+    return operator
 
 @clock
 @calc_func
