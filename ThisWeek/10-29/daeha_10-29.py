@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-# Working example for my blog post at:
-# https://danijar.github.io/structuring-your-tensorflow-models
-
 """ 객체의 값과 정체성에 관한 예제
 """
 
