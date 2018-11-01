@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-# Working example for my blog post at:
-# https://danijar.github.io/structuring-your-tensorflow-models
-
 """ 가변 매개변수에 대한 예제
 """
 
