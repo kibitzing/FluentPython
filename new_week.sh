@@ -30,7 +30,7 @@ if [ "$(ls thisweek | grep $day1)" != "$day1" ]; then
 	done
 	for prez in $pre2 $pre3 $pre4 $pre5 $pre6
 	do
-		git add --all ThisWeek/$prez
+		git add --all ThisWeek/$prez/*
 	done
 
 	git commit -m "automatically generated"
