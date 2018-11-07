@@ -108,12 +108,6 @@ class Vector2d:
 		ax.arrow(0,0,*(self.x,self.y),head_width=0.1)
 		plt.show()
 
-	@classmethod
-	def frombytes(cls, octets):
-		typecode = ( chr(octets[0]))
-		memv = memoryview(oct([1:])).cast(typecode)
-		return cls(*memv)
-
 
 v1 = Vector2d(3,4)
 v2 = Vector2d(3.1,4.2)
