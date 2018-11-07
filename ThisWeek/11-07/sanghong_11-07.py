@@ -12,7 +12,8 @@
 """
 2018_11-07_Fluent_Python
 @Author Sanghong.Kim
-page 293 ~ 9장 끝까지 보았습니다.
+영문판 기준 page 293 ~ 9장 끝까지 보았습니다.
+한글판 기준 page 346 ~ 9장 끝까지 보았습니다.
 """
 
 # Import Modules
