@@ -110,10 +110,9 @@ class Vector2d:
 
 	@classmethod
 	def frombytes(cls, octets):
-		typecode = ( chr(octets[0]))
-		memv = memoryview(oct([1:])).cast(typecode)
+		typecode = chr(octets[0])
+		memv = memoryview(octets[1:]).cast(typecode)
 		return cls(*memv)
-
 
 v1 = Vector2d(3,4)
 v2 = Vector2d(3.1,4.2)
