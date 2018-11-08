@@ -1,48 +1,19 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# p257-261
+# p262-ch9end
 
 '''
-Hashable
+__slots__에 대해 배우지만, 실질적으로 쓰기에는 애매할 것으로 판단된다.
+이후 타인의 코드에 __slots__이 나오는 경우에 당황하지 않을 듯하다.
 '''
 
-import datetime
 import math
 from matplotlib import pyplot as plt
-
-
-# 9-4
-
-class Demo:
-	@classmethod
-	def klassmeth(*args):
-		return args
-
-	@staticmethod
-	def statmeth(*args):
-		return args
-
-print(Demo.klassmeth())
-print(Demo.klassmeth('spam'))
-print(Demo.statmeth())
-print(Demo.statmeth('spam'))
-
-print("="*50)
-
-br1 =1/2.43
-print(format(br1, '0.4f'))
-print('1 BRL = {rate:0.2f} USD'.format(rate=br1))
-
-print("="*50)
-now = datetime.datetime.now()
-format(now, '%H%M%S')
-print("It's now {:%I:%M %p}".format(now))
-
-
-
+from array import array
 # 9-6 custom
 
 class Vector2d:
+	# __slots__ = ('__x', '__y')
 
 	typecode = 'd'
 
@@ -108,15 +79,28 @@ class Vector2d:
 		ax.arrow(0,0,*(self.x,self.y),head_width=0.1)
 		plt.show()
 
+
 	@classmethod
 	def frombytes(cls, octets):
 		typecode = chr(octets[0])
 		memv = memoryview(octets[1:]).cast(typecode)
 		return cls(*memv)
 
-v1 = Vector2d(3,4)
-v2 = Vector2d(3.1,4.2)
-print(hash(v1))
-print(hash(v2))
-vectors = set([v1,v2])
-print(vectors)
+class ShortVector2d(Vector2d):
+	typecode = 'f'
+
+
+v1 = Vector2d(1.1, 2.2)
+dumpd = bytes(v1)
+print(dumpd)
+print(len(dumpd))
+v1.typecode = 'f' # Vector2d에 __slots__의 주석처리를 풀면, type is read-only를 이유로 error를 뱉는다.
+dumpf = bytes(v1)
+print(dumpf)
+print(len(dumpf))
+print(v1.typecode)
+print(Vector2d.typecode)
+
+sv = ShortVector2d(1/11, 1/27)
+print(sv)
+print(len(bytes(sv)))
