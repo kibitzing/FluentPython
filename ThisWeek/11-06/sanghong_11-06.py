@@ -156,7 +156,8 @@ class BlackJackGame:
         self.hit()
         if self.hand == 21:
             return 'bj'
-        return 'nbj'
+        return self.hand
+
 
     def question(self):
         print("Your Hand :", self.hand)
@@ -216,6 +217,7 @@ def main(args):
     a = dealer.dealer()
     if a == 'bj':
         b = player.blackjack()
+        print("Your Card :", b)
         if b == 'bj':
             print("Draw")
         else:
