@@ -80,21 +80,17 @@ class Vector:
         return self._components[index]
 
     def __add__(self, other):
-        components = []
         if len(self._components) != len(other._components):
             return ("Dimention of {}, {} doesn't match".format(self,other))
         else:
-            for index in range(len(self._components)):
-                components.append(self._components[index] + other._components[index])
+            components = [self._components[index] + other._components[index] for index in range(len(self._components))]
             return "Sum of {}, {} is Vector({})".format(self,other,components)
 
     def __mul__(self, scalar):
-        components = []
         if type(scalar) is str:
             return ("{} can't multiply by {}, {} is string!".format(self, scalar,scalar))
         else:
-            for index in range(len(self._components)):
-                components.append(self._components[index] * scalar)
+            components = [self._components[index] * scalar for index in range(len(self._components))]
             return "{} multiply by {} is Vector({})".format(self, scalar, components)
 
     @classmethod
