@@ -15,8 +15,10 @@ folder_name=To$pre6
 
 echo "updating..."
 
+git pull
+
 if [ $day == "일요일" ]; then
-if [ "$(ls thisweek | grep $day1)" != "$day1" ]; then
+if [ "$(ls ThisWeek | grep $day1)" != "$day1" ]; then
 	mkdir archive/$folder_name
 	mv ThisWeek/* archive/$folder_name
 
@@ -34,7 +36,7 @@ if [ "$(ls thisweek | grep $day1)" != "$day1" ]; then
 	done
 
 	git commit -m "automatically generated"
-#	git push origin master
+	git push origin master
 fi
 fi
 
