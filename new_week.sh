@@ -64,6 +64,8 @@ if [ "$(ls ThisWeek | grep $day1)" != "$day1" ]; then
 
 	git commit -m "automatically generated"
 	git push origin master
+	exit 0
 fi
 
-
+echo "Hello World!"
+exit
