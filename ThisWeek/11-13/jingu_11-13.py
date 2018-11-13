@@ -5,7 +5,7 @@
     Copyright © 2018 Jingu Kang. All rights reserved.
 
     DESCRIPTION: 
-        
+	practice using __format         
 """
 
 from array import array
@@ -16,6 +16,15 @@ import functools
 import operator
 import itertools  # <1>
 
+
+class Hijingu:
+    name = 'jingu'
+
+    def __format__(self, format_spec):
+        return 'Mr.{}'.format(Hijingu.name)
+
+jingu = Hijingu()
+print('hi {}'.format(jingu))
 
 class Vector:
     typecode = 'd'
