@@ -21,15 +21,23 @@ from tensorflow_probability import positive_semidefinite_kernels as tfk
 
 from abc import ABCMeta, ABC, abstractmethod
 
-class Sub_prob_box(ABC):  #TODO(): add abstract class
+class Sub_prob_box(object):  #TODO(): add abstract class
+    __metaclass__ = ABCMeta
     
+    def __init__(self, num_components):
+        self._num_components = num_components
+        
+    def loaded(self):  # 구상 메서드
+        return bool(self._num_components)
+        
     @abstractmethod
-    def sample(self):
-        """Sample uniform distribution."""
+    def sample(self):  # 추상 메서드
+        return """Sample uniform distribution."""
 
+    @property
     @abstractmethod
-    def kernel(self):
-        """Define the kernel."""
+    def kernel(self):  # 추상 메서드
+        return """Define the kernel."""
 
 
 class Probability_box_upgrade(Sub_prob_box):
@@ -136,3 +144,6 @@ if __name__ == "__main__":
     
     prob_box1 = Probability_box_upgrade(([1,2,3]),100,1,1)
     for i in prob_box1: print(i)  # 0\ 10\ 20
+    
+    Sub_prob_box(100).loaded()  # True
+    Sub_prob_box(100).sample()  # 'Sample uniform distribution.'
