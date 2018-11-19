@@ -3,7 +3,7 @@
 
 """ Abstract class(ABC)를 사용하는 예
     
-    pages 409~413; 한글 기준
+    pages ~421; 한글 기준
 """
 
 import numpy as np
