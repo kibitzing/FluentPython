@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# p393~ch12end
+# p393~ch13end
 # Example 13-18~19
 
 '''
-    ch12 마무리
+    ch13 마무리
 '''
 
 import abc
