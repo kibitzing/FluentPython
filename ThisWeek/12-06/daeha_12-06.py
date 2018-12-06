@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-""" 파이썬 중위 연산자 @를 사용하는 예제
+""" 단어 sequence를 위한 class 생성
     
     pages 499~503; 한글 기준
 """
