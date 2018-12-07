@@ -55,9 +55,5 @@ s3 = Sentence('Attack and Defence')
 it = iter(s3)
 it
 
-next(it)
-next(it)
-next(it)
-
 list(it)
 list(iter(s3))  # ['Attack', 'and', 'Defence']
