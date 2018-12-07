@@ -4,7 +4,7 @@ Created on Wed Dec  5 22:50:44 2018
 
 @author: jiyun
 """
-# 원서 기준 14장 ~ 504p
+# 원서 기준 14장 ~ 407p
 
 
 import re
