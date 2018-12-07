@@ -2,8 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """ `iter` function을 공부해보는 예제
-    
-    pages 499~503; 한글 기준
+
 """
 from collections import abc
 
