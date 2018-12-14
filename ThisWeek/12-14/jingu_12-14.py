@@ -1,7 +1,7 @@
 #!/anaconda3/envs/tensorflow/bin/python
 #-*- coding: utf-8 -*-
 """ 
-    Created by Jingu Kang on 09/12/2018.
+    Created by Jingu Kang on 14/12/2018.
     Copyright © 2018 Jingu Kang. All rights reserved.
 
     DESCRIPTION: 
@@ -29,4 +29,7 @@ for length , group in itertools.groupby(reversed(animals), len):
 
 names = ['이준', '이강','강진구', '조인성','강다니엘','황우슬혜']
 for length , group in itertools.groupby(names, len):
-    print(length, '->', list(group))
+    print('name length:', length, '->', list(group))
+# name length: 2 -> ['이준', '이강']
+# name length: 3 -> ['강진구', '조인성']
+# name length: 4 -> ['강다니엘', '황우슬혜']
