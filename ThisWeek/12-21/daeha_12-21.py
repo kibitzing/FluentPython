@@ -37,6 +37,5 @@ coro_avg.send(30)  # 20.0
 coro_avg.send(5)   # 15.0
 
 coro_avg.send('spam')  # TypeError: unsupported operand type(s) for +=: 'float' and 'str'
-
 coro_avg.send(60)  # StopIteration; 코루틴 안에서 예외처리가 완료되지 않았으므로 
                    #                StopIteration 예외 발생
