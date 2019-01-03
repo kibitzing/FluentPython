@@ -6,7 +6,6 @@
 
     DESCRIPTION: 
         learn how to use ThreadPoolExecutor
-        Not quite understood...
 """
 
 from time import sleep, strftime
