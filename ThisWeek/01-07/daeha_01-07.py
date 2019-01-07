@@ -43,6 +43,7 @@ def decorator_function(original_function):
 @decorator_function
 def display_1():
     print("Operate display_1 function")
+
     
 @decorator_function
 def display_2():
