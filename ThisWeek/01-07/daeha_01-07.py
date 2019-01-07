@@ -53,3 +53,48 @@ def display_2():
 display_1()
 print("\n")
 display_2()
+
+### 4)
+def decorator_function(original_function):
+    def wrapper_function(*args, **kwargs):
+        print('Before {} function operate.'.format(original_function.__name__))
+        return original_function(*args, **kwargs)
+    return wrapper_function
+
+
+@decorator_function
+def display():
+    print('Operate display function.')
+    
+    
+@decorator_function
+def display_information(name, age):
+    print('Operate display_information({}, {}) function'.format(name, age))
+    
+display()
+print("\n")
+display_information('kdh', 29)
+
+
+### 5)
+class DecoratorClass:
+    def __init__(self, original_function):
+        self.original_function = original_function
+        
+    def __call__(self, *args, **kwargs):
+        print('Before {} function operate.'.format(self.original_function.__name__))
+        return self.original_function(*args, **kwargs)
+    
+    
+@DecoratorClass
+def display():
+    print('Operate display function.')
+    
+    
+@DecoratorClass
+def display_information(name, age):
+    print('Operate display_information({}, {}) function.'.format(name, age))
+    
+display()
+print("\n")
+display_information("kdh", 29)
