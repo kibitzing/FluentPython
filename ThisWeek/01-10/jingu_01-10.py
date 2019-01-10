@@ -5,8 +5,9 @@
     Copyright © 2018 Jingu Kang. All rights reserved.
 
     DESCRIPTION:
-      download flags.
-      modified get_flag(cc)
+        download flags
+        modfied get_flag(cc)
+
 """
 import os
 import sys
@@ -48,7 +49,7 @@ def main(download_many):
 
 @asyncio.coroutine
 def get_flag(cc):
-    url='{}/{cc}.jpg'.format(BASE_URL,cc=cc)
+    url='{}/{cc}/{cc}.gif'.format(BASE_URL,cc=cc.lower())
     print(url)
     resp = yield from aiohttp.ClientSession().get(url)
     print (resp.status)
