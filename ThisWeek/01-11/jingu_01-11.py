@@ -6,8 +6,7 @@
 
     DESCRIPTION: 
       add error handling to asyncio,
-      need debugging(asychttp version)
-        
+      error handled, but 'unclosed client session' happens        
 """
 
 import asyncio
@@ -26,7 +25,7 @@ base_url = 'http://flupy.org/data/flags'
 DEST_DIR = './downloads/'
 
 DEFAULT_CONCUR_REQ = 5
-MAX_CONCUR_REQ = 100
+MAX_CONCUR_REQ = 10
 
 class FetchError(Exception):
     def __init__(self, country_code):
@@ -35,15 +34,15 @@ class FetchError(Exception):
 @asyncio.coroutine
 def get_flag(base_url, cc):
     url = '{}/{cc}/{cc}.gif'.format(base_url, cc=cc.lower())
-    resp = requests.get(url)
-    
+    resp = yield from aiohttp.request('GET', url)
+
     if resp.status == 200:
-        image = yield from resp.content
+        image = yield from resp.read()
         return image
-    
+
     elif resp.status == 404:
         raise web.HTTPNotFound
-    
+
     else:
         raise aiohttp.ClientHttpProxyError(
             code = resp.status, message=resp.reason,
@@ -54,7 +53,6 @@ def get_flag(base_url, cc):
 #     url = '{}/{cc}/{cc}.gif'.format(BASE_URL, cc=cc.lower())
 #     resp = requests.get(url)
 #     return resp.content
-
 
 @asyncio.coroutine
 def download_one(cc, base_url, semaphore, verbose):
@@ -74,6 +72,7 @@ def download_one(cc, base_url, semaphore, verbose):
     if verbose and msg:
         print(cc, msg)
     return Result(status, cc)
+
 @asyncio.coroutine
 def downloader_coro(cc_list, base_url, verbose, concur_req):
     counter = collections.Counter()
@@ -88,29 +87,27 @@ def downloader_coro(cc_list, base_url, verbose, concur_req):
             res = yield from future
         except FetchError as exc:
             country_code = exc.country_code
-        try:
-            error_msg = exc.__cause__.args[0]
-        except IndexError:
-            error_msg = exc.__cause__.args[0]
-        if verbose and error_msg:
-            msg = '*** Error for {}:{}'
-            print(msg.format(country_code , error_msg))
+            try:
+                error_msg = exc.__cause__.args[0]
+            except IndexError:
+                error_msg = exc.__cause__.args[0]
+            if verbose and error_msg:
+                msg = '*** Error for {}:{}'
+                print(msg.format(country_code , error_msg))
             status = HTTPStatus.error
+
         else:
             status = res.status
         counter[status] += 1
     return counter
-
 
 def download_many(cc_list, base, verbose, concur_req):
     loop = asyncio.get_event_loop()
     coro = downloader_coro(cc_list, base_url, verbose, concur_req)
     counts = loop.run_until_complete(coro)
     loop.close()
-
     return counts
-
-
 
 if __name__ == '__main__':
     main(download_many, DEFAULT_CONCUR_REQ, MAX_CONCUR_REQ)
+
