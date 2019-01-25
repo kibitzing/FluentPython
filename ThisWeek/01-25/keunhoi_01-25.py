@@ -12,7 +12,7 @@
 # Example 20-1
 class Quantity:
 
-	def __init__(self):
+	def __init__(self, storage_name):
 		self.storage_name = storage_name
 
 	def __set__(self, instance, value):
