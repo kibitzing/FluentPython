@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-""" 프로퍼티 속성을 이용한 예제
+""" 오버라이딩 예제
 
 """
 def cls_name(obj_or_cls):
