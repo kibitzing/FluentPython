@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bd7b2a0-6fe5-484a-a5ee-f356d9ee7a2b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ThisWeek/01-31/jingu.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThisWeek/02-01/jingu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThisWeek/02-07/jingu.py" beforeDir="false" afterPath="$PROJECT_DIR$/ThisWeek/02-07/jingu_02-07.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,28 +13,12 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/FluentPython$jingu.coverage" NAME="jingu Coverage Results" MODIFIED="1548922015991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ThisWeek/01-31" />
+    <SUITE FILE_PATH="coverage/FluentPython$keunhoi_02_07.coverage" NAME="keunhoi_02-07 Coverage Results" MODIFIED="1549540745203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ThisWeek/02-07" />
+    <SUITE FILE_PATH="coverage/FluentPython$jingu_02_07.coverage" NAME="jingu_02-07 Coverage Results" MODIFIED="1549542849498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ThisWeek/02-07" />
     <SUITE FILE_PATH="coverage/FluentPython$jingu_02_01.coverage" NAME="jingu_02-01 Coverage Results" MODIFIED="1549029439922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ThisWeek/02-01" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThisWeek/01-30/jingu_01-30.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="63" column="12" lean-forward="true" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ThisWeek/02-01/jingu_02-01.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file:///usr/lib/python3.6/code.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -44,16 +28,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThisWeek/01-31/keunhoi_01-31.py">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ThisWeek/02-07/jingu_02-07.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThisWeek/01-31/jingu_01-31.py">
+        <entry file="file://$PROJECT_DIR$/ThisWeek/02-07/model_v6.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-line="3" />
+              <caret lean-forward="true" selection-end-line="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThisWeek/02-07/keunhoi_02-07.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -69,13 +66,15 @@
         <option value="$PROJECT_DIR$/ThisWeek/01-30/jingu_01-30.py" />
         <option value="$PROJECT_DIR$/ThisWeek/01-31/jingu.py" />
         <option value="$PROJECT_DIR$/ThisWeek/02-01/jingu_02-01.py" />
+        <option value="$PROJECT_DIR$/ThisWeek/02-07/jingu_02-07.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="-2" />
-    <option name="width" value="1200" />
-    <option name="height" value="1922" />
+    <option name="x" value="1200" />
+    <option name="y" value="424" />
+    <option name="width" value="1920" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -98,13 +97,13 @@
               <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
               <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
               <item name="ThisWeek" type="462c0819:PsiDirectoryNode" />
-              <item name="01-31" type="462c0819:PsiDirectoryNode" />
+              <item name="02-07" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
               <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
               <item name="ThisWeek" type="462c0819:PsiDirectoryNode" />
-              <item name="02-01" type="462c0819:PsiDirectoryNode" />
+              <item name="02-08" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -132,7 +131,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.jingu_02-01">
+  <component name="RunManager" selected="Python.jingu_02-07">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="FluentPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -199,13 +198,61 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="jingu_02-07" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FluentPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ThisWeek/02-07" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ThisWeek/02-07/jingu_02-07.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="keunhoi_02-07" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FluentPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ThisWeek/02-07" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ThisWeek/02-07/keunhoi_02-07.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.Unnamed" />
       <item itemvalue="Python.jingu" />
       <item itemvalue="Python.jingu_02-01" />
+      <item itemvalue="Python.jingu_02-07" />
+      <item itemvalue="Python.keunhoi_02-07" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.jingu_02-07" />
+        <item itemvalue="Python.keunhoi_02-07" />
         <item itemvalue="Python.jingu_02-01" />
         <item itemvalue="Python.jingu" />
       </list>
@@ -224,22 +271,23 @@
       <workItem from="1548920321438" duration="100000" />
       <workItem from="1548920426532" duration="1886000" />
       <workItem from="1549027070871" duration="4303000" />
+      <workItem from="1549540002597" duration="1591000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6289000" />
+    <option name="totallyTimeSpent" value="7880000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-2" width="1200" height="1922" extended-state="6" />
+    <frame x="1200" y="424" width="1920" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22530329" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14140876" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32849973" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32829374" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -262,12 +310,10 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ThisWeek/01-31/jingu.py" />
-    <entry file="file://$PROJECT_DIR$/ThisWeek/02-01/jingu.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ThisWeek/02-01/jingu.py" />
     <entry file="file://$PROJECT_DIR$/ThisWeek/01-30/jingu_01-30.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
+        <state relative-caret-position="1069">
           <caret line="63" column="12" lean-forward="true" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
         </state>
       </provider>
@@ -282,6 +328,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ThisWeek/02-01/jingu_02-01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file:///usr/lib/python3.6/code.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -289,10 +342,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThisWeek/02-01/jingu_02-01.py">
+    <entry file="file://$PROJECT_DIR$/archive/To02-01/02-01/jingu_02-01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        <state>
+          <caret lean-forward="true" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThisWeek/02-07/model_v6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThisWeek/02-07/keunhoi_02-07.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThisWeek/02-07/jingu_02-07.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
