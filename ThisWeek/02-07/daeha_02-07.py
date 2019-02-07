@@ -10,11 +10,13 @@ from concurrent import futures
 from random import randrange
 #from arcfour import arcfour
 
+
 JOBS = 12
 SIZE = 2**18
 
 KEY = b"'Twas brilling, and the slithy toves\nDid gyre"  # bytes
 STATUS = '{} workers, elapsed time: {:.2f}s'
+
 
 def arcfour(key, in_bytes, loops=20):
     """RC4 compatible algorithm"""
