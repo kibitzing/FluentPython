@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bd7b2a0-6fe5-484a-a5ee-f356d9ee7a2b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ThisWeek/02-08/jingu_02-08.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThisWeek/02-08/jingu.py" beforeDir="false" afterPath="$PROJECT_DIR$/ThisWeek/02-08/HiHello.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,23 +39,17 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ThisWeek/02-08/daeha_02-08.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-69" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ThisWeek/02-08/keunhoi_02-08.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-905" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ThisWeek/02-08/jiyun_0208.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1320" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
@@ -353,7 +345,8 @@
       <workItem from="1549027070871" duration="4303000" />
       <workItem from="1549540002597" duration="1698000" />
       <workItem from="1549543064663" duration="34000" />
-      <workItem from="1549635737126" duration="1742000" />
+      <workItem from="1549635737126" duration="1772000" />
+      <workItem from="1549678051728" duration="6000" />
     </task>
     <task id="LOCAL-00001" summary="jingu upload code of 02-07">
       <created>1549542912322</created>
@@ -362,22 +355,29 @@
       <option name="project" value="LOCAL" />
       <updated>1549542912322</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="jingu upload code of 02-08">
+      <created>1549637490462</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1549637490462</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9763000" />
+    <option name="totallyTimeSpent" value="9799000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1200" y="424" width="1920" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14461046" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14621131" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32829374" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32829374" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -400,7 +400,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="jingu upload code of 02-07" />
-    <option name="LAST_COMMIT_MESSAGE" value="jingu upload code of 02-07" />
+    <MESSAGE value="jingu upload code of 02-08" />
+    <option name="LAST_COMMIT_MESSAGE" value="jingu upload code of 02-08" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ThisWeek/01-31/jingu.py" />
@@ -423,6 +424,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ThisWeek/02-07/jingu_02-07.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="12" selection-start-line="2" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThisWeek/02-08/daeha_02-08.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThisWeek/02-08/keunhoi_02-08.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThisWeek/02-08/jiyun_0208.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThisWeek/02-08/HiHello.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ThisWeek/02-07/model_v6.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -434,35 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThisWeek/02-08/daeha_02-08.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-69" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThisWeek/02-08/keunhoi_02-08.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-905" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThisWeek/02-08/jiyun_0208.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1320" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThisWeek/02-07/jingu_02-07.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="12" selection-start-line="2" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThisWeek/02-08/HiHello.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
         </state>
       </provider>
     </entry>
