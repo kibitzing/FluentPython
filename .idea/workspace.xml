@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bd7b2a0-6fe5-484a-a5ee-f356d9ee7a2b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ThisWeek/last_day/jingu_02-12.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThisWeek/02-11/jingu.py" beforeDir="false" afterPath="$PROJECT_DIR$/ThisWeek/02-11/jingu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThisWeek/last_day/jingu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/To12-31/12-03/.keunhoi_12-03.py.swp" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/FluentPython$jingu.coverage" NAME="jingu Coverage Results" MODIFIED="1548922015991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ThisWeek/01-31" />
+    <SUITE FILE_PATH="coverage/FluentPython$jingu.coverage" NAME="jingu Coverage Results" MODIFIED="1549981126976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ThisWeek/last_day" />
     <SUITE FILE_PATH="coverage/FluentPython$jingu_02_08.coverage" NAME="jingu_02-08 Coverage Results" MODIFIED="1549637456904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ThisWeek/02-08" />
     <SUITE FILE_PATH="coverage/FluentPython$keunhoi_02_07.coverage" NAME="keunhoi_02-07 Coverage Results" MODIFIED="1549540745203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ThisWeek/02-07" />
     <SUITE FILE_PATH="coverage/FluentPython$jingu__1_.coverage" NAME="jingu (1) Coverage Results" MODIFIED="1549890980199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ThisWeek/02-11" />
@@ -21,22 +23,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/lib/python3.6/code.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ThisWeek/last_day/jingu_02-12.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="90" selection-start-line="90" selection-end-line="90" />
+            <state relative-caret-position="293">
+              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ThisWeek/02-11/jingu.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-            </state>
-          </provider>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/archive/To12-07/12-03/jingu_12-03.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -47,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/archive/To02-08/02-08/evalsupport.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="24" column="39" lean-forward="true" selection-start-line="1" selection-end-line="24" selection-end-column="39" />
+            <state relative-caret-position="528">
+              <caret line="24" column="39" selection-start-line="1" selection-end-line="24" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -74,6 +72,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>model</find>
+      <find>12-03</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -90,6 +89,8 @@
         <option value="$PROJECT_DIR$/ThisWeek/02-08/HiHello.py" />
         <option value="$PROJECT_DIR$/ThisWeek/02-08/jingu_02-08.py" />
         <option value="$PROJECT_DIR$/ThisWeek/02-11/jingu.py" />
+        <option value="$PROJECT_DIR$/ThisWeek/last_day/jingu.py" />
+        <option value="$PROJECT_DIR$/ThisWeek/last_day/jingu_02-12.py" />
       </list>
     </option>
   </component>
@@ -104,6 +105,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,14 +122,448 @@
               <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
               <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
               <item name="archive" type="462c0819:PsiDirectoryNode" />
-              <item name="To02-08" type="462c0819:PsiDirectoryNode" />
+              <item name="To01-11" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To01-14" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To01-25" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To02-01" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
               <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
               <item name="archive" type="462c0819:PsiDirectoryNode" />
               <item name="To02-08" type="462c0819:PsiDirectoryNode" />
-              <item name="02-08" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To09-07" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To09-14" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To09-21" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To09-28" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To10-05" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To10-12" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To10-19" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To10-19" type="462c0819:PsiDirectoryNode" />
+              <item name="10-19" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To10-25" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To10-25" type="462c0819:PsiDirectoryNode" />
+              <item name="10-22" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To10-25" type="462c0819:PsiDirectoryNode" />
+              <item name="10-23" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To10-25" type="462c0819:PsiDirectoryNode" />
+              <item name="10-24" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To10-25" type="462c0819:PsiDirectoryNode" />
+              <item name="10-25" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To10-25" type="462c0819:PsiDirectoryNode" />
+              <item name="10-26" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To10-29" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To10-29" type="462c0819:PsiDirectoryNode" />
+              <item name="10-29" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To10-29" type="462c0819:PsiDirectoryNode" />
+              <item name="10-30" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To10-29" type="462c0819:PsiDirectoryNode" />
+              <item name="10-31" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To10-29" type="462c0819:PsiDirectoryNode" />
+              <item name="11-01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To10-29" type="462c0819:PsiDirectoryNode" />
+              <item name="11-02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To11-05" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To11-05" type="462c0819:PsiDirectoryNode" />
+              <item name="11-05" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To11-05" type="462c0819:PsiDirectoryNode" />
+              <item name="11-06" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To11-05" type="462c0819:PsiDirectoryNode" />
+              <item name="11-07" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To11-05" type="462c0819:PsiDirectoryNode" />
+              <item name="11-08" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To11-05" type="462c0819:PsiDirectoryNode" />
+              <item name="11-09" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To11-12" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To11-12" type="462c0819:PsiDirectoryNode" />
+              <item name="11-12" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To11-12" type="462c0819:PsiDirectoryNode" />
+              <item name="11-13" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To11-12" type="462c0819:PsiDirectoryNode" />
+              <item name="11-14" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To11-12" type="462c0819:PsiDirectoryNode" />
+              <item name="11-15" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To11-12" type="462c0819:PsiDirectoryNode" />
+              <item name="11-16" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To11-19" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To11-19" type="462c0819:PsiDirectoryNode" />
+              <item name="11-19" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To11-26" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To11-26" type="462c0819:PsiDirectoryNode" />
+              <item name="11-26" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To11-26" type="462c0819:PsiDirectoryNode" />
+              <item name="11-27" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To11-26" type="462c0819:PsiDirectoryNode" />
+              <item name="11-28" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To11-26" type="462c0819:PsiDirectoryNode" />
+              <item name="11-29" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To11-26" type="462c0819:PsiDirectoryNode" />
+              <item name="11-30" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To12-14" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To12-14" type="462c0819:PsiDirectoryNode" />
+              <item name="12-10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To12-14" type="462c0819:PsiDirectoryNode" />
+              <item name="12-11" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To12-14" type="462c0819:PsiDirectoryNode" />
+              <item name="12-12" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To12-14" type="462c0819:PsiDirectoryNode" />
+              <item name="12-13" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To12-14" type="462c0819:PsiDirectoryNode" />
+              <item name="12-14" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To12-21" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To12-21" type="462c0819:PsiDirectoryNode" />
+              <item name="12-17" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To12-21" type="462c0819:PsiDirectoryNode" />
+              <item name="12-18" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To12-21" type="462c0819:PsiDirectoryNode" />
+              <item name="12-19" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To12-21" type="462c0819:PsiDirectoryNode" />
+              <item name="12-20" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To12-21" type="462c0819:PsiDirectoryNode" />
+              <item name="12-21" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To12-28" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To12-28" type="462c0819:PsiDirectoryNode" />
+              <item name="12-24" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To12-28" type="462c0819:PsiDirectoryNode" />
+              <item name="12-26" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To12-28" type="462c0819:PsiDirectoryNode" />
+              <item name="12-27" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To12-28" type="462c0819:PsiDirectoryNode" />
+              <item name="12-28" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To12-31" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To12-31" type="462c0819:PsiDirectoryNode" />
+              <item name="01-02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To12-31" type="462c0819:PsiDirectoryNode" />
+              <item name="01-03" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To12-31" type="462c0819:PsiDirectoryNode" />
+              <item name="01-04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="To12-31" type="462c0819:PsiDirectoryNode" />
+              <item name="12-31" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
@@ -140,11 +576,16 @@
               <item name="ThisWeek" type="462c0819:PsiDirectoryNode" />
               <item name="02-11" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="FluentPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentPython" type="462c0819:PsiDirectoryNode" />
+              <item name="ThisWeek" type="462c0819:PsiDirectoryNode" />
+              <item name="last_day" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -166,7 +607,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.jingu (1)">
+  <component name="RunManager" selected="Python.jingu">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="FluentPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -202,7 +643,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ThisWeek/02-11/jingu.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ThisWeek/02-11/jingu_02-11.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -211,7 +652,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="jingu_02-01" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="jingu" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="FluentPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -219,12 +660,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ThisWeek/02-01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ThisWeek/last_day" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ThisWeek/02-01/jingu_02-01.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ThisWeek/last_day/jingu_02-12.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -301,19 +742,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.Unnamed" />
-      <item itemvalue="Python.jingu_02-01" />
       <item itemvalue="Python.jingu_02-07" />
       <item itemvalue="Python.keunhoi_02-07" />
       <item itemvalue="Python.jingu_02-08" />
       <item itemvalue="Python.jingu (1)" />
+      <item itemvalue="Python.jingu" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.jingu" />
         <item itemvalue="Python.jingu (1)" />
         <item itemvalue="Python.jingu_02-08" />
         <item itemvalue="Python.jingu_02-07" />
         <item itemvalue="Python.keunhoi_02-07" />
-        <item itemvalue="Python.jingu_02-01" />
       </list>
     </recent_temporary>
   </component>
@@ -334,7 +775,8 @@
       <workItem from="1549543064663" duration="34000" />
       <workItem from="1549635737126" duration="1772000" />
       <workItem from="1549678051728" duration="6000" />
-      <workItem from="1549889729250" duration="1546000" />
+      <workItem from="1549889729250" duration="1597000" />
+      <workItem from="1549976625459" duration="4795000" />
     </task>
     <task id="LOCAL-00001" summary="jingu upload code of 02-07">
       <created>1549542912322</created>
@@ -350,32 +792,55 @@
       <option name="project" value="LOCAL" />
       <updated>1549637490462</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="jingu upload code of 02-11">
+      <created>1549891285844</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1549891285844</updated>
+    </task>
+    <task id="LOCAL-00004" summary="jingu upload code of 02-11">
+      <created>1549891304298</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1549891304298</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11345000" />
+    <option name="totallyTimeSpent" value="16191000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="1200" y="424" width="1920" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14781217" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17075774" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32829374" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5799136" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32937366" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32937366" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32905746" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32937366" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32829374" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -389,7 +854,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="jingu upload code of 02-07" />
     <MESSAGE value="jingu upload code of 02-08" />
-    <option name="LAST_COMMIT_MESSAGE" value="jingu upload code of 02-08" />
+    <MESSAGE value="jingu upload code of 02-11" />
+    <option name="LAST_COMMIT_MESSAGE" value="jingu upload code of 02-11" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ThisWeek/01-31/jingu.py" />
@@ -405,64 +871,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThisWeek/02-08/jiyun_0208.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThisWeek/02-08/HiHello.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThisWeek/02-07/model_v6.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThisWeek/02-07/keunhoi_02-07.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThisWeek/02-08/jingu_02-08.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.6/code.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThisWeek/02-07/jingu_02-07.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="12" selection-start-line="2" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThisWeek/02-08/daeha_02-08.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThisWeek/02-08/keunhoi_02-08.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ThisWeek/02-08/jiyun_0208.py" />
+    <entry file="file://$PROJECT_DIR$/ThisWeek/02-08/HiHello.py" />
+    <entry file="file://$PROJECT_DIR$/ThisWeek/02-07/model_v6.py" />
+    <entry file="file://$PROJECT_DIR$/ThisWeek/02-07/keunhoi_02-07.py" />
+    <entry file="file://$PROJECT_DIR$/ThisWeek/02-08/jingu_02-08.py" />
+    <entry file="file://$PROJECT_DIR$/ThisWeek/02-07/jingu_02-07.py" />
+    <entry file="file://$PROJECT_DIR$/ThisWeek/02-08/daeha_02-08.py" />
+    <entry file="file://$PROJECT_DIR$/ThisWeek/02-08/keunhoi_02-08.py" />
     <entry file="file://$PROJECT_DIR$/archive/To02-08/02-08/HiHello.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/archive/To02-08/02-08/evalsupport.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="24" column="39" lean-forward="true" selection-start-line="1" selection-end-line="24" selection-end-column="39" />
+        <state relative-caret-position="528">
+          <caret line="24" column="39" selection-start-line="1" selection-end-line="24" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -473,10 +896,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThisWeek/02-11/jingu.py">
+    <entry file="file://$PROJECT_DIR$/archive/To12-07/12-03/jingu_12-03.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/lib/python3.6/code.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="238">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThisWeek/02-11/jingu_02-11.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archive/To10-05/10-05/sanghong_10-05.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThisWeek/last_day/jingu_02-12.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
         </state>
       </provider>
     </entry>
